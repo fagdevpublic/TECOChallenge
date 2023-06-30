@@ -26,6 +26,7 @@
 		566605872A4DCAF9004C3997 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566605862A4DCAF9004C3997 /* LocationView.swift */; };
 		5666058A2A4E3704004C3997 /* PrimaryInfoBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566605892A4E3704004C3997 /* PrimaryInfoBlock.swift */; };
 		56BB12612A4E902C00A79F2B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB12602A4E902C00A79F2B /* UIColorExtension.swift */; };
+		56BB12632A4E9C1100A79F2B /* CityLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB12622A4E9C1100A79F2B /* CityLocation.swift */; };
 		707B8BEFED6E5B7D4FD5EDD8 /* libPods-WeatherChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5596FCD3B0E0C407EFEA779D /* libPods-WeatherChallengeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		566605862A4DCAF9004C3997 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		566605892A4E3704004C3997 /* PrimaryInfoBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryInfoBlock.swift; sourceTree = "<group>"; };
 		56BB12602A4E902C00A79F2B /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		56BB12622A4E9C1100A79F2B /* CityLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocation.swift; sourceTree = "<group>"; };
 		6581ABF6A6A6A0A798F7BA68 /* Pods-WeatherChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-WeatherChallengeTests/Pods-WeatherChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E7C07EADCCF1FA59FBDFAA7 /* Pods-WeatherChallenge-WeatherChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherChallenge-WeatherChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherChallenge-WeatherChallengeUITests/Pods-WeatherChallenge-WeatherChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		938D8DC03B77BBB7E5E574F7 /* libPods-WeatherChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 			children = (
 				5666057C2A4DBB56004C3997 /* ForecastResponse.swift */,
 				566605842A4DC273004C3997 /* InitModel.swift */,
+				56BB12622A4E9C1100A79F2B /* CityLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				566605832A4DBFC0004C3997 /* ForecastService.swift in Sources */,
+				56BB12632A4E9C1100A79F2B /* CityLocation.swift in Sources */,
 				566605442A4A99A0004C3997 /* AppDelegate.swift in Sources */,
 				566605802A4DBDAE004C3997 /* HomeView.swift in Sources */,
 				566605462A4A99A0004C3997 /* SceneDelegate.swift in Sources */,
